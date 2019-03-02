@@ -78,3 +78,20 @@ fs.readdir('./', (error, files) => {
     if (error) console.log('error', error)
     else console.log('files : ' , files)
 })
+
+
+console.log('--------')
+///////////////////////////////
+/////////// Events ////////////
+///////////////////////////////
+
+console.log('Events')
+
+const Event = require('events')
+const emmiter = new Event()
+
+emmiter.on('message', () => {
+    console.log('success')
+})
+
+emmiter.emit('message')
