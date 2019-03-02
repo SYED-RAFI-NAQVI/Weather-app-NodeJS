@@ -88,10 +88,17 @@ console.log('--------')
 console.log('Events')
 
 const Event = require('events')
-const emmiter = new Event()
+const Logger = require('./practise2')
+const Log = new Logger()
 
-emmiter.on('message', () => {
-    console.log('success')
+// emmiter.on('message', () => {
+//     console.log('success')
+// })
+
+// emmiter.emit('message')
+
+Log.on('logging', (arg) => {
+    console.log(arg.data)
 })
 
-emmiter.emit('message')
+Log.log('hey there')
