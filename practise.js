@@ -1,3 +1,5 @@
+/////PATH/////
+
 const path = require('path')
 
 let jn = path.join('rafi','naqvi')
