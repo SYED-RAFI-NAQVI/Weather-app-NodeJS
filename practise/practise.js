@@ -81,9 +81,9 @@ fs.readdir('./', (error, files) => {
 
 
 console.log('--------')
-///////////////////////////////
-/////////// Events ////////////
-///////////////////////////////
+////////////////////////////////
+/////////// Events /////////////
+////////////////////////////////
 
 console.log('Events')
 
@@ -102,3 +102,23 @@ Log.on('logging', (arg) => {
 })
 
 Log.log('hey there')
+
+console.log('--------------------------')
+/////////////////////////
+///////// HTTP //////////
+/////////////////////////
+
+console.log('HTTP')
+
+const http = require('http')
+
+const server = http.createServer((req, res) => {
+    if (req.url === '/'){
+        res.write('welcome')
+        res.end()
+    }
+})
+
+
+server.listen(2000)
+console.log('listening')
