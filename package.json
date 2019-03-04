@@ -10,13 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/SYED-RAFI-NAQVI/Weather-app-NodeJS.git"
   },
-  "author": "",
+  "author": "Syed Rafi Naqvi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SYED-RAFI-NAQVI/Weather-app-NodeJS/issues"
   },
   "homepage": "https://github.com/SYED-RAFI-NAQVI/Weather-app-NodeJS#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "jshint": "^2.10.1"
   }
 }
