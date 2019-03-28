@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1601b33d-169f-4d50-829f-5c59d5f61749" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise/configuration/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/practise/configuration/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise/api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/practise/api/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/practise/api/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -94,9 +92,9 @@
         <option value="$PROJECT_DIR$/practise/config/development.json" />
         <option value="$PROJECT_DIR$/practise/config/production.json" />
         <option value="$PROJECT_DIR$/practise/config/default.json" />
-        <option value="$PROJECT_DIR$/practise/api/app.js" />
         <option value="$PROJECT_DIR$/practise/new.js" />
         <option value="$PROJECT_DIR$/practise/configuration/config/default.json" />
+        <option value="$PROJECT_DIR$/practise/api/app.js" />
       </list>
     </option>
   </component>
@@ -169,12 +167,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553421425770</updated>
-      <workItem from="1553421429376" duration="8957000" />
+      <workItem from="1553421429376" duration="9344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8957000" />
+    <option name="totallyTimeSpent" value="9344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -274,7 +272,7 @@
     <entry file="file://$PROJECT_DIR$/practise/api/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
