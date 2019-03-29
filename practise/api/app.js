@@ -11,9 +11,9 @@ app.use(express.urlencoded({extended : true}));
 app.use(express.static('public'));
 app.use(logger);
 
-// console.log(config.get('name'))
-// console.log('app name :' + config.get('name') );
-// console.log('server name : ' + config.get('mail.host'));
+console.log(config.get('name'))
+console.log('app name :' + config.get('name') );
+console.log('server name : ' + config.get('mail.host'));
 
 
 if(app.get('env') === 'development'){
